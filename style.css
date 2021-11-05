@@ -8,7 +8,7 @@ section{
     
 }
 .top-banner{
-    background-image: url("images/bcs-bg.png");
+    background-image: url("images/bcs-bg-main.png");
     background-repeat: no-repeat;
 }
 .top-banner span{
@@ -29,4 +29,9 @@ section .half-width{
 }
 .info-area span{
     color: orange;
+}
+.curcle{
+    position: relative;
+    width: 60%;
+    image-resolution: 300px;
 }
