@@ -5,7 +5,6 @@ body{
 section{
     height: 500px;
     padding-bottom: 150px;
-    
 }
 .top-banner{
     background-image: url("images/bcs-bg-main.png");
@@ -14,11 +13,11 @@ section{
 .top-banner span{
     color: orange;
 }
-section .half-width{
-    margin-left: 10%;
-    padding-left: 4%;
+.half-width{
     width: 40%;
     float: left;
+    margin-left: 5%;
+    padding-left: 2%;
     margin-top: 5%;
 }
 .bcs-content-color{
@@ -34,4 +33,7 @@ section .half-width{
     position: relative;
     width: 60%;
     image-resolution: 300px;
+}
+.top-banner h1{
+    font-size: 50px;
 }
