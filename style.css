@@ -45,6 +45,7 @@ phone:600px;
     }
     .barlinks{
         font-size: 20px;
+        margin: 0%;
     }
 }
 @media (max-width: 890px) {
