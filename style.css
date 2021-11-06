@@ -85,17 +85,17 @@ phone:600px;
         width: 40px;
     }
     .barlinks{
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 @media (orientation: portrait) {
     .logo-color{
-        font-size: 40px;
+        font-size: 28px;
     }
     .logo {
         width: 40px;
     }
     .barlinks{
-        font-size: 20px;
+        font-size: 15px;
     }
 }
