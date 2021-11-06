@@ -13,6 +13,23 @@ body{
 .barlinks{
     margin: 0%;
 }
+
+section h1{
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(255, 187, 0);
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+
 /*
 desktop:1200px;
 laptop:992px;
@@ -43,6 +60,9 @@ phone:600px;
     .barlinks{
         margin-right: 190px;
         margin-left: 190px;
+    }
+    section h1{
+        margin-top: 10%;
     }
 }
 @media (max-width: 768px) {
