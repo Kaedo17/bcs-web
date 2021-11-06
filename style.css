@@ -36,18 +36,7 @@ laptop:992px;
 tablet:768px;
 phone:600px;
 */
-@media (orientation: portrait) {
-    .logo-color{
-        font-size: 50px;
-    }
-    .logo {
-        width: 40px;
-    }
-    .barlinks{
-        font-size: 20px;
-        margin: 0%;
-    }
-}
+
 @media (max-width: 890px) {
     .logo-color{
         font-size: 50px;
@@ -89,6 +78,17 @@ phone:600px;
     }
 }
 @media (orientation: landscape) {
+    .logo-color{
+        font-size: 40px;
+    }
+    .logo {
+        width: 40px;
+    }
+    .barlinks{
+        font-size: 20px;
+    }
+}
+@media (orientation: portrait) {
     .logo-color{
         font-size: 40px;
     }
