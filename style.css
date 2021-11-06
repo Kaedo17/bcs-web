@@ -79,13 +79,13 @@ phone:600px;
 }
 @media (orientation: landscape) {
     .logo-color{
-        font-size: 40px;
+        font-size: 28px;
     }
     .logo {
         width: 40px;
     }
     .barlinks{
-        font-size: 30px;
+        font-size: 15px;
     }
 }
 @media (orientation: portrait) {
