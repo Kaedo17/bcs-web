@@ -1,7 +1,12 @@
 .body{
     margin: 0%
 }
-
+.top{
+    margin-top: 5%;
+}
+a:hover{
+    color: blue;
+}
 
 
 
