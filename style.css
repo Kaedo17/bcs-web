@@ -4,8 +4,14 @@
 .top{
     margin-top: 5%;
 }
-a:hover{
+.txt-lnk{
+    color: lightskyblue
+}
+.txt-lnk a:hover{
     color: blue;
+}
+.top-title-txt{
+    color: darkslategray
 }
 
 
