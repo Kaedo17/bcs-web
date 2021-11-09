@@ -24,7 +24,8 @@ head{
 section{
     background-image: url("images/bcs-bg-main.png");
     background-repeat: no-repeat;
-    height: 500px
+    height: 500px;
+    background-size: 40px;
 }
 
 
