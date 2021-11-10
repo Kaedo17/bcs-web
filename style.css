@@ -61,6 +61,7 @@ section{
 
 
 
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .welcome-image{
@@ -159,7 +160,16 @@ section{
         padding-right: 5%;
     }
     .half-width{
-        display: hidden;
+        display: none;
+    }
+    .greenbcs{
+        width: 130%;
+    }
+    .adjust{
+        padding-top: 20%;
+    }
+    .adjust1{
+        padding-top: 5%;
     }
 }
 
@@ -190,6 +200,21 @@ section{
     .teachers-title{
         display: none;
     }
+    .half-width{
+        display: unset;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .greenbcs{
+        width: 130%;
+    }
+    .adjust{
+        padding-top: 20%;
+    }
+    .adjust1{
+        padding-top: 5%;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -207,5 +232,14 @@ section{
     }
     body{
         overflow-x: hidden;
+    }
+    .greenbcs{
+        width: 130%;
+    }
+    .adjust{
+        padding-top: 20%;
+    }
+    .adjust1{
+        padding-top: 5%;
     }
 }
