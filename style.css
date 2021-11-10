@@ -24,7 +24,6 @@ head{
 .top{
     background-image: url("images/bcs-bg-main.png");
     background-repeat: no-repeat;
-    height: 500px;
 }
 .informations{
     margin-top: 10%;
@@ -40,6 +39,23 @@ head{
     margin-right: auto;
     width: 70%;
 }
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 5%;
+}
+
+
+
+
+
+
 
 
 
@@ -49,7 +65,7 @@ head{
 @media only screen and (max-width: 600px) {
     .welcome-image{
         position: relative;
-        bottom: 40%;
+        bottom: 10%;
     }
     .top{
         background-image: url("images/bcs-bg-main.png");
@@ -68,13 +84,28 @@ head{
         padding-left: 5%;
         padding-right: 5%;
     }
+    .half-width{
+        display: none;
+    }
+    .greenbee{
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #teachers-info{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .bcs-teaches{
+        text-align: center;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .welcome-image{
         position: relative;
-        bottom: 30%;
+        bottom: 0%;
     }
     .top{
         background-image: url("images/bcs-bg-main.png");
@@ -93,13 +124,28 @@ head{
         padding-left: 5%;
         padding-right: 5%;
     }
+    .half-width{
+        display: none;
+    }
+    .greenbee{
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    #teachers-info{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .bcs-teaches{
+        text-align: center;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
     .welcome-image {
         position: relative;
-        bottom: 15%;
+        bottom: -10%;
     }
     .informations{
         position: relative;
@@ -112,13 +158,16 @@ head{
         padding-left: 5%;
         padding-right: 5%;
     }
+    .half-width{
+        display: hidden;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
     .welcome-image{
         position: relative;
-        top: 5%;
+        top: 10%;
     }
     .informations{
         position: relative;
@@ -130,9 +179,33 @@ head{
         padding-left: 5%;
         padding-right: 5%;
     }
+    .bcs-teaches{
+        display: none;
+    }
+    #teachers-info{
+        padding-left: 5%;
+        padding-right: 5%;
+        display: none;
+    }
+    .teachers-title{
+        display: none;
+    }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
-    
+    .bcs-teaches{
+        display: none;
+    }
+    #teachers-info{
+        padding-left: 5%;
+        padding-right: 5%;
+        display: none;
+    }
+    .teachers-title{
+        display: none;
+    }
+    body{
+        overflow-x: hidden;
+    }
 }
