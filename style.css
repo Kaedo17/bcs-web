@@ -103,6 +103,12 @@ section{
         top: 70%;
     }
     .top-title-txt{
+        text-align: center
+    }
+    .txt-lnk{
+        font-size: 65%
+    }
+    #brand-txt{
         text-align: center;
     }
 }
