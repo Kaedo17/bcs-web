@@ -111,9 +111,10 @@ section{
     #brand-txt{
         text-align: center;
     }
-    .portrait-view{
+    .bcs-campus {
+        text-align: center;
         position: relative;
-    padding-top: 10%;
+        padding-top: 50%;
     }
 }
 
@@ -185,6 +186,9 @@ section{
     }
     .adjust1{
         padding-top: 5%;
+    }
+    .bcs-campus{
+        display: none;
     }
 }
 
